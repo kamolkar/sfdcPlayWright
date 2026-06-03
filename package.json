@@ -1,0 +1,28 @@
+{
+  "name": "pw_sfdcactqa",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test:regression":"playwright test --grep @regression"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "@faker-js/faker": "^10.4.0",
+    "@playwright/test": "^1.59.1",
+    "allure-commandline": "^2.38.1",
+    "allure-playwright": "^3.7.1",
+    "csv-parse": "^6.2.1",
+    "dotenv": "^17.4.2",
+    "exceljs": "^4.4.0",
+    "otpauth": "^9.5.1",
+    "xlsx": "https://cdn.sheetjs.com/xlsx-0.20.1/xlsx-0.20.1.tgz"
+  },
+  "devDependencies": {
+    "@types/node": "^25.6.0"
+  }
+ 
+}
