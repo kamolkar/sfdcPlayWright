@@ -1,0 +1,33 @@
+{
+  "compilerOptions": {
+    "module": "ESNext",
+    "target": "esnext",
+    "moduleResolution": "Bundler",
+    "types": ["node"],
+    "esModuleInterop": true, 
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,   
+
+    /* Other Outputs */
+    "sourceMap": true,
+    "declaration": true,
+    "declarationMap": true,
+
+    /* Stricter Typechecking Options */
+    "strict": true,
+    "noUncheckedIndexedAccess": true,
+    "exactOptionalPropertyTypes": true,
+
+    /* Recommended Options */
+    "jsx": "react-jsx",
+    "verbatimModuleSyntax": false, // Turned OFF for easier imports
+    "isolatedModules": true,
+    "moduleDetection": "force",
+
+      /* Path Mapping */
+   "paths": {
+      "@utils/*": ["./src/utils/*"],
+      "@data/*": ["./src/test-data/*"]
+    },
+  }
+}
