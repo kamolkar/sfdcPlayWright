@@ -1,0 +1,48 @@
+[{
+  "StandaloneEventFlow": {
+    "EventType": "Stand Alone",
+    "RequiredSessions":"2",
+    "AssetName": "PWStandaloneEvent_DateTime", 
+    "Description": "PWStandalone Event Creation", 
+    "TimeEstimateInMinutes": "RandomData",
+    "ContentOwnerOrganization":"Finance",
+    "ContentPOC":"Sudha S Designer",
+    "Sessions": [
+      {
+        "SessionType": "Hybrid",
+        "Status": "Active",
+        "Name": "HybridSession1",
+        "Description":"HybridSession1",
+        "Date":"Jun 16, 2026",
+        "StartTime":"4:00 PM",
+        "EndTime":"4:30 PM",
+        "TimeZoneCity":"India",
+        "Region":"APAC"
+      },
+       {
+        "SessionType": "Hybrid",
+        "Status": "Active",
+        "Name": "HybridSession2",
+        "Description":"HybridSession2",
+        "Date":"Jun 16, 2026",
+        "StartTime":"5:00 PM",
+        "EndTime":"5:30 PM",
+        "TimeZoneCity":"India",
+        "Region":"APAC"
+      }
+    ],
+    "SessionRoles":[
+      {
+        "Role":"Host",
+        "EmployeeName":"Sudha S Designer"
+      },
+      {
+        "Role":"Co-Host",
+        "EmployeeName":"Sudarshan Venkatraman Designer QA"
+      }
+    ]
+  }
+
+
+  
+}]

@@ -1,0 +1,41 @@
+[{
+  "CourseEventFlow": {
+    "EventType": "Course",
+    "RequiredSessions":"2",
+    "AssetName": "PWCourseEvent_DateTime", 
+    "Description": "Course Event Creation", 
+    "TimeEstimateInMinutes": "RandomData",
+    "ContentOwnerOrganization":"Finance",
+    "ContentPOC":"Sudha S Designer",
+    "Sessions": [
+      {
+        "SessionType": "Virtual",
+        "Status": "Active",
+        "Name": "VirtualSession1",
+        "Description":"VirtualSession1",
+        "Date":"Jun 15, 2026",
+        "StartTime":"3:00 PM",
+        "EndTime":"3:30 PM",
+        "TimeZoneCity":"India",
+        "Region":"APAC"
+      },
+       {
+        "SessionType": "Virtual",
+        "Status": "Active",
+        "Name": "VirtualSession2",
+        "Description":"VirtualSession2",
+        "Date":"Jun 15, 2026",
+        "StartTime":"4:00 PM",
+        "EndTime":"4:30 PM",
+        "TimeZoneCity":"India",
+        "Region":"APAC"
+      }
+    ],
+    "SessionRoles":[
+      {
+        "Role":"Co-Host",
+        "EmployeeName":"Sudarshan Venkatraman Designer QA"
+      }
+    ]
+  }  
+}]
